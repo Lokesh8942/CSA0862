@@ -1,0 +1,16 @@
+
+binary1 = input("Enter the first binary number: ")
+binary2 = input("Enter the second binary number: ")
+
+
+num1 = int(binary1, 2)
+num2 = int(binary2, 2)
+sum_binary = bin(num1 + num2)[2:]
+
+
+print("Binary addition result:", sum_binary)
+
+OUTPUT:
+Enter the first binary number: 01010
+Enter the second binary number: 0010
+Binary addition result: 1100
