@@ -1,0 +1,33 @@
+n=eval(input("Enter the number:"))
+sp=0
+sn=0
+cp=0
+cn=0
+while(n!=-1):
+    if(n>0):
+         cp+=1
+        sp+=n
+    else:
+        cn+=1
+        sn+=n
+    n=eval(input("Enter the number:"))
+if(cn>0):
+    print("the average of negative",sn/cn)
+else:
+    print("no negative numbers are entered")
+if(cp>0):
+    print("the average of postive",sp/cp)
+else:
+    print("no postive numbers are entered")
+
+OUTPUT:
+Enter the number:1
+Enter the number:6
+Enter the number:-2
+Enter the number:-4
+Enter the number:-5
+Enter the number:6
+Enter the number:9
+Enter the number:-1
+the average of negative -3.6666666666666665
+the average of postive 5.5
