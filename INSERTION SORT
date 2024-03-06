@@ -1,0 +1,14 @@
+a = input("Enter a list: ").split()
+a = list(map(int, a))
+
+for i in range(len(a)):
+    j = i
+    while j > 0 and a[j-1] > a[j]:
+        a[j-1], a[j] = a[j], a[j-1]
+        j = j - 1
+
+print(a, "Insertion sort")
+
+OUTPUT:
+22 11 3 66 4
+2 4 11 22 66
