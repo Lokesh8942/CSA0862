@@ -1,0 +1,9 @@
+n=input("Enter a number:")
+x=len(n)
+n=int(n)
+print(n)
+print(x)
+OUTPUT:
+Enter a number:54678
+54678
+5
