@@ -1,0 +1,15 @@
+a=eval(input("Enter the amount:$"))
+if  a<= 0:
+    print("Invalid input. Purchase amount cannot be negative.")
+elif(a>=2000):
+        discount = 500
+        final_amount = a - discount
+        print("Final amount after discount: $", final_amount)
+else:
+    discount = 0
+    print("Amount:$",a)
+
+
+OUTPUT:
+Enter the amount:$2000
+Final amount after discount: $ 1500
